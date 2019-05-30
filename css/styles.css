@@ -51,7 +51,26 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
     position: relative;
     height: 40px;
     margin-top: -40px;
+    margin-right: -5px;
 }
+#footer2 {
+   background-color: #444;
+  color: #aaa;
+  font-size: 8pt;
+  letter-spacing: 1px;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  clear: both;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
+    margin-right: -5px;
+    margin-top: 30px;
+    
+}
+
+
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
@@ -289,19 +308,7 @@ nav h1 a {
 
 /* ====================== Media Queries ====================== */ 
 @media only screen and (max-width: 400px) {
-	#footer {
-    background-color: #444;
-    color: #aaa;
-    font-size: 8pt;
-    letter-spacing: 1px;
-    padding: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    clear: both;
-      position: relative;
-      height: 40px;
-      margin-top: -40px;
-  }
+	
 	.filter-options h2 {
 		width: 17%;
 	}
@@ -312,13 +319,8 @@ nav h1 a {
   .filter-options select {
 		width: 28%;
   }
-  
-  
-}
-
-@media only screen and (max-width: 750px) {
   #footer {
-    background-color: #444;
+    /* background-color: #444;
     color: #aaa;
     font-size: 8pt;
     letter-spacing: 1px;
@@ -329,7 +331,14 @@ nav h1 a {
       position: relative;
       height: 40px;
       margin-top: -40px;
+      margin-right: -5px; */
   }
+  
+  
+}
+
+@media only screen and (max-width: 750px) {
+  
 	#breadcrumb {
 		width: 100%;
 	}
@@ -390,20 +399,8 @@ nav h1 a {
   
 }
 
-@media only screen and (max-width: 1150px) {
-  #footer {
-    background-color: #444;
-    color: #aaa;
-    font-size: 8pt;
-    letter-spacing: 1px;
-    padding: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    clear: both;
-      position: relative;
-      height: 40px;
-      margin-top: -40px;
-  }
+@media only screen and (max-width: 1200px) {
+ 
 	#restaurant-container, #reviews-container {
 		padding-left: 12px;
   }
