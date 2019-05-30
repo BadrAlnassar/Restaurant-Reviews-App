@@ -123,7 +123,6 @@ updateRestaurants = () => {
     }
   })
 }
-
 /**
  * Clear current restaurants, their HTML and remove their map markers.
  */
@@ -140,7 +139,6 @@ resetRestaurants = (restaurants) => {
   self.markers = [];
   self.restaurants = restaurants;
 }
-
 /**
  * Create all restaurants HTML and add them to the webpage.
  */
@@ -151,7 +149,6 @@ fillRestaurantsHTML = (restaurants = self.restaurants) => {
   });
   addMarkersToMap();
 }
-
 /**
  * Create restaurant HTML.
  */

@@ -146,14 +146,12 @@ class DBHelper {
   static urlForRestaurant(restaurant) {
     return (`./restaurant.html?id=${restaurant.id}`);
   }
-
   /**
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
     return (`./img/${restaurant.photograph}`);
   }
-
   /**
    * Map marker for a restaurant.
    */
