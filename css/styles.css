@@ -310,7 +310,8 @@ nav h1 a {
 @media only screen and (max-width: 400px) {
 	
 	.filter-options h2 {
-		width: 17%;
+    width: 80%;
+    text-align: center;
 	}
 	#restaurants-list li {
 		margin: 0px;
