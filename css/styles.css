@@ -320,7 +320,7 @@ nav h1 a {
   .filter-options select {
 		width: 28%;
   }
-  #footer {
+  /* #footer { */
     /* background-color: #444;
     color: #aaa;
     font-size: 8pt;
@@ -333,7 +333,7 @@ nav h1 a {
       height: 40px;
       margin-top: -40px;
       margin-right: -5px; */
-  }
+  /* } */
   
   
 }
